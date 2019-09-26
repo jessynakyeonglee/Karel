@@ -30,7 +30,6 @@ public class KarelLabOne {
         karel.move();
         karel.pickThing();
         karel.move();
-        karel.pickThing();
         karel.move();
         karel.pickThing();
         karel.move();
@@ -43,11 +42,15 @@ public class KarelLabOne {
         karel.turnLeft();
         karel.turnLeft();
         karel.turnLeft();
+        karel.move();
+        karel.move();
+        karel.turnLeft();
+        karel.turnLeft();
+        karel.turnLeft();
         karel.putThing();
         karel.move();
         karel.putThing();
         karel.move();
-        karel.putThing();
         karel.move();
         karel.putThing();
         karel.move();
@@ -62,7 +65,9 @@ public class KarelLabOne {
         karel.turnLeft();
         karel.move();
         karel.move();
-
+        karel.turnLeft();
+        karel.turnLeft();
+        karel.turnLeft();
 
 
 
