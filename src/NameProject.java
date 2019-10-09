@@ -5,24 +5,14 @@ public class NameProject {
 
         String first = "Carl";
         String last = "Sagan";
-        int flength = first.length();
-        int llength = last.length();
-        String firsts = first.substring(0,1)+last.substring(0,1);
-        int compare = first.compareTo(last);
-        String lastoffirst = first.substring(flength-1);
-        int index1 = last.indexOf(lastoffirst);
-        String lastoflast = last.substring(llength-1);
-        int index2 = first.indexOf(lastoflast);
-        String fakefirst = first.substring(0,flength/2)+last.substring(llength/2);
-        String fakelast = last.substring(0,llength/2)+first.substring(flength/2);
 
         System.out.println(first+" "+last);
-        System.out.println(flength+llength);
-        System.out.println(firsts);
-        System.out.println(compare);
-        System.out.println(index1);
-        System.out.println(index2);
-        System.out.println(fakefirst+" "+fakelast);
+        System.out.println(first.length()+last.length());
+        System.out.println(first.substring(0,1)+last.substring(0,1));
+        System.out.println(first.compareTo(last));
+        System.out.println(last.indexOf(first.substring(first.length()-1)));
+        System.out.println(first.indexOf(last.substring(last.length()-1)));
+        System.out.println(first.substring(0,first.length()/2)+last.substring(last.length()/2)+" "+last.substring(0,last.length()/2)+first.substring(first.length()/2));
 
     }
 }
